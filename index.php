@@ -73,14 +73,28 @@
 		      		<div class="col s3"></div>
 		      		<div class="col s2">
 			      		<label>Password:</label>
-			      		<input type="text" name="password">
+			      		<input type="text" name="password" />
 			      	</div>
 			      	<div class="col s2">
-			      		<label> Gimimo data </label>
-			      		<div class="input-field">
-			      			<input type="text" class="datepicker">
-			      		</div>
+			      		<label>Gimimo data:</label>
+			      		<input type="text" name ="birthDate" class="datepicker" />
 			      	</div>	
+		      	</div>
+		      	<div class="row">
+		      		<div class="col s3"></div>
+		      		<div class="col s3">
+		      			<p>
+		      				<label>
+		      					<input type="checkbox" name="ruleCheck" class="filled-in" />
+		      					<span> Sutinku su visomis pateiktomis <a href="#">taisyklėmis</a></span>
+		      				</label>
+		      			</p>
+		      		</div>
+		      		<div class="col s2">
+		      			<button class="btn waves-effect waves-light" type="submit" name="submit">Pateikti
+		      			<i class="material-icons right">send</i>
+		      			</button>
+		      		</div>
 		      	</div>
 		     </form> 	
 		</div>
