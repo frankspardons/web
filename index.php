@@ -11,26 +11,34 @@
 		<style>
 		# #uno{background-color: lightblue;}
 		# #dos{background-color: lightgreen;} 
-		#aplankalas{border: 3px solid black; margin-top:150px;}
+		# #aplankalas{border: 3px solid black;}
+		  #aplankalas{ margin-top:120px; padding: 30px 0px;}
+		# #headerA{margin-top:20px;}
+		#logButton{margin-top:20px;}
 		</style>
 	</head>
 	<body>
 		<div class="container">
-			<div class="row">
+			<div id="headerA" class="row">
 				<div id="uno" class="col s3">
-					<h2> Portalas </h2>
+					<h3> Portalas </h3>
 				</div>
-				<div class="col s7"></div>
-				<div id="dos" class="col s2">
-					<form method="POST">
+				<div class="col s4"></div>
+				<form method="POST">
+				<div id="dos" class="input-field col s2">	
 						<label>El.paštas</label>
 						<input type="text" name="email"/>
+				</div>
+				<div id="dos" class="input-field col s2">
 						<label>Slaptažodis</label>
 						<input type="text" name="password"/>
-					</form>
 				</div>
+				<div class="col s1">
+						<a id="logButton" class="waves-effect waves-light btn-small">Prisijungti</a>
+				</div>
+				</form>
 			</div>
-			<div id="aplankalas">
+			<div  class="z-depth-3" id="aplankalas">
 			<div class="row">
 				 <div class="col s2"></div>
 				 <div class="col s5">
@@ -41,11 +49,11 @@
 	      	<form>
 		      	<div class="row">
 		      		<div class="col s3"></div>
-		      		<div class="col s2">
+		      		<div class="input-field col s2">
 		      			<label>Vardas</label>
 		      			<input type="text" name="name"/>
 		      		</div>
-		      		<div class="col s2">
+		      		<div class="input-field col s2">
 		      			<label>Pavarde</label>
 		      			<input type="text" name="surname"/>
 		      		</div>
@@ -53,7 +61,7 @@
 		      	</div>
 		      	<div class="row">
 		      		<div class="col s3"></div>
-		      		<div class="col s2">
+		      		<div class="input-field col s2">
 			      		<label>El.paštas</label>
 			      		<input type="text" name="newEmail"/>
 			      	</div>
@@ -73,12 +81,12 @@
 		      	</div>
 		      	<div class="row">
 		      		<div class="col s3"></div>
-		      		<div class="col s2">
-			      		<label>Password:</label>
+		      		<div class="input-field col s2">
+			      		<label>Slaptažodis</label>
 			      		<input type="text" name="password" />
 			      	</div>
-			      	<div class="col s2">
-			      		<label>Gimimo data:</label>
+			      	<div class="input-field col s2">
+			      		<label>Gimimo data</label>
 			      		<input type="text" name ="birthDate" class="datepicker" />
 			      	</div>	
 		      	</div>
@@ -93,7 +101,7 @@
 		      			</p>
 		      		</div>
 		      		<div class="col s2">
-		      			<button class="btn waves-effect waves-light" type="submit" name="submit">Pateikti
+		      			<button class="btn-small waves-effect waves-light z-depth-3" type="submit" name="submit">Pateikti
 		      			<i class="material-icons right">send</i>
 		      			</button>
 		      		</div>
