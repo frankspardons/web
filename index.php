@@ -9,8 +9,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Portalas</title>
 		<style>
-		#uno{background-color: lightblue;}
+		# #uno{background-color: lightblue;}
 		# #dos{background-color: lightgreen;} 
+		#aplankalas{border: 3px solid black; margin-top:150px;}
 		</style>
 	</head>
 	<body>
@@ -29,6 +30,7 @@
 					</form>
 				</div>
 			</div>
+			<div id="aplankalas">
 			<div class="row">
 				 <div class="col s2"></div>
 				 <div class="col s5">
@@ -97,6 +99,7 @@
 		      		</div>
 		      	</div>
 		     </form> 	
+			</div>
 		</div>
 		<!--JavaScript at end of body for optimized loading-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
